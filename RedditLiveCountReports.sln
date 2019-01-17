@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2008
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivecountStats.App.UI", "RedditLiveCountReports\LivecountStats.App.UI.csproj", "{81796262-2A7A-4158-8F58-5EF5011BD8FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivecountStats.DataLayer", "LiveCountStats.DataLayer\LivecountStats.DataLayer.csproj", "{7F744D7F-7F95-4C32-8349-1A33F477B250}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RedditSharp", "zlibs\RedditSharp-2.0-.Net-Core\RedditSharp\RedditSharp.csproj", "{B76FE3EF-64F1-4C81-96AB-D9FC2C1F0953}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LivecountStats.BusLayer", "LivecountStats.BusLayer\LivecountStats.BusLayer.csproj", "{181CEE4B-D862-4E16-8E2F-BC6CEE0E26DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81796262-2A7A-4158-8F58-5EF5011BD8FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81796262-2A7A-4158-8F58-5EF5011BD8FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81796262-2A7A-4158-8F58-5EF5011BD8FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81796262-2A7A-4158-8F58-5EF5011BD8FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F744D7F-7F95-4C32-8349-1A33F477B250}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F744D7F-7F95-4C32-8349-1A33F477B250}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F744D7F-7F95-4C32-8349-1A33F477B250}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F744D7F-7F95-4C32-8349-1A33F477B250}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B76FE3EF-64F1-4C81-96AB-D9FC2C1F0953}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B76FE3EF-64F1-4C81-96AB-D9FC2C1F0953}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B76FE3EF-64F1-4C81-96AB-D9FC2C1F0953}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B76FE3EF-64F1-4C81-96AB-D9FC2C1F0953}.Release|Any CPU.Build.0 = Release|Any CPU
+		{181CEE4B-D862-4E16-8E2F-BC6CEE0E26DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{181CEE4B-D862-4E16-8E2F-BC6CEE0E26DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{181CEE4B-D862-4E16-8E2F-BC6CEE0E26DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{181CEE4B-D862-4E16-8E2F-BC6CEE0E26DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30950650-8818-4456-BC71-F230B2B71B11}
+	EndGlobalSection
+EndGlobal

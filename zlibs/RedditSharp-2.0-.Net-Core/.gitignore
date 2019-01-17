@@ -1,0 +1,20 @@
+bin/
+obj/
+*.user
+*.userprefs
+*.suo
+*.pidb
+_ReSharper*/
+TestResults/
+*.mdf
+*.psess
+*.vsp
+
+/**/project.lock.json
+
+# StyleCop files
+StyleCop.Cache
+.vs/config/applicationhost.config
+/.vs
+/packages
+/RedditSharpTests/secrets.json
