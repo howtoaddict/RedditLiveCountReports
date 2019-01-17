@@ -95,3 +95,4 @@ apikeys.txt
 *.keys
 *.keyssandbox
 RedditLiveCountReports/data/imported/
+RedditLiveCountReports/RedditSettings.config
