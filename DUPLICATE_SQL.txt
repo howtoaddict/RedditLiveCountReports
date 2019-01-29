@@ -1,0 +1,12 @@
+DELETE FROM dbo.CountMessage
+WHERE CountMessageId IN (
+	SELECT MAX(CountMessageId)
+	FROM dbo.CountMessage
+	WHERE id IN (
+		SELECT cm.id
+		FROM dbo.CountMessage cm
+		GROUP BY cm.id
+		HAVING COUNT(*) > 1
+	)
+	GROUP BY id
+)
