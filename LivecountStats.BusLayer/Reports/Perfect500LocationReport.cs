@@ -33,7 +33,7 @@ SELECT ROW_NUMBER() OVER (ORDER BY StartedAt DESC) Pos, Author, StartedAt
 FROM (
 	SELECT author, Count(*) KCount, MIN (counter) StartedAt
 	FROM dbo.CountMessage
-    WHERE author IS NOT NULL AND stricken = 0
+    WHERE author IS NOT NULL AND stricken = 0 AND counter IS NOT NULL
 	GROUP BY author, counter/1000
 ) o
 WHERE o.KCount = 500
